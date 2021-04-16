@@ -1,0 +1,39 @@
+.updates {
+    text-align: center;
+    padding: 2rem;
+    max-width: 100%;
+    margin: 0 auto;
+    background: #fff;
+}
+.updates h1 {
+    font-size: 28px;
+}
+.updates p {
+    margin-top: 13px;
+    font-size: 14px;
+}
+.updates input {
+    padding: 1rem 4rem;
+    width: 50%;
+    font-family: Poppins, sans-serif;
+    border: 0;
+    border-radius: 5px;
+    color: var(--p-text);
+    margin-top: 2rem;
+    background: #f4f4f4;
+}
+.btn-normal {
+    padding: 0.5rem;
+    width: 50%;
+    font-family: Poppins, sans-serif;
+    background: var(--button);
+    border: 0;
+    font-size: 15px;
+    border-radius: 5px;
+    color: #fff;
+    margin: 10px 0 40px 0;
+}
+.btn-normal:hover {
+    cursor: pointer;
+    background: var(--button-hover);
+}

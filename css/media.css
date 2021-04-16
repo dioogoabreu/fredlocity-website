@@ -1,0 +1,73 @@
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 87.5%;
+    }
+    header nav #menu {
+        display: none;
+    }
+    header nav .logo {
+        margin: 30px;
+    }
+    section.content img {
+        width: 90vw;
+        height: 30vh;
+    }
+    .select-group {
+        flex-direction: column;
+    }
+    .hotel-modal__content select {
+        margin-bottom: 15px;
+    }
+    .features-arrow {
+        display: none;
+    }
+    .features-images {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .features-content {
+        text-align: center;
+    }
+    .about-person {
+        flex-direction: column;
+        padding: 1rem;
+        text-align: center;
+    }
+    .about-person img {
+        max-width: 100vw;
+        margin: 0 auto;
+    }
+    .about-subinformations {
+        flex-direction: column;
+        text-align: center;
+    }
+    .people-info {
+        margin-top: 20px;
+    }
+    .updates {
+        max-width: 100vw;
+        margin-top: 5rem;
+    }
+    .updates button,
+    .updates input {
+        width: 100%;
+    }
+    .pricing {
+        margin-top: 37rem;
+    }
+    .qualifications-group {
+        display: flex;
+        flex-direction: column;
+    }
+    .qualification {
+        margin-bottom: 20px;
+    }
+    .footer-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .edit {
+        margin-bottom: 20px;
+    }
+}

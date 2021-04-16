@@ -1,0 +1,52 @@
+header {
+    width: 100vw;
+    position: fixed;
+    background: #fff;
+    z-index: 99;
+}
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 70%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo h2 {
+    background: var(--orange);
+    color: #fff;
+    padding: 0.8rem 1.2rem;
+    border-radius: 50%;
+}
+.logo p {
+    font-size: 21px;
+    font-weight: 700;
+    color: var(--dark-blue);
+    margin-left: 10px;
+}
+header nav #menu {
+    display: flex;
+    align-items: center;
+    padding: 40px 0;
+}
+header nav #menu li a {
+    color: var(--p-text);
+    margin-right: 25px;
+    font-size: 14px;
+    font-family: Poppins, sans-serif;
+}
+header nav #btn-menu {
+    background: var(--button);
+    padding: 9px 35px;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 12.5px;
+    font-family: Poppins, sans-serif;
+}
+header nav #btn-menu:hover {
+    background: var(--button-hover);
+}

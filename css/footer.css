@@ -1,0 +1,23 @@
+footer {
+    width: 100vw;
+    background: #f9f9f9;
+}
+.footer-content {
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 3rem;
+}
+.part-one {
+    max-width: 400px;
+}
+.part-one p {
+    margin: 10px 0;
+}
+.edit {
+    margin-right: 40px;
+}
+.edit h2 {
+    margin-bottom: 10px;
+}

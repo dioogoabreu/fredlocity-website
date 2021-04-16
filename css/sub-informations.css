@@ -1,0 +1,43 @@
+.about {
+    max-width: 70%;
+    margin: 0 auto;
+    height: 650px;
+}
+.about-person {
+    display: flex;
+    align-items: center;
+    color: var(--black-blue);
+    font-family: Poppins, sans-serif;
+}
+.about-person img {
+    width: 300px;
+    height: 300px;
+    margin-right: 40px;
+    border-radius: 8px;
+}
+.about-informations p:last-child {
+    color: #447265;
+    font-weight: 700;
+    margin-top: 40px;
+}
+.about-subinformations {
+    display: flex;
+    font-family: Poppins, sans-serif;
+    margin-top: 5rem;
+    justify-content: space-between;
+    border-radius: 5px;
+    align-items: center;
+}
+.years-info h1 {
+    font-size: 27px;
+}
+.people-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.people-info i {
+    margin-right: 40px;
+    color: var(--orange);
+    font-size: 20px;
+}

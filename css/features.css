@@ -1,0 +1,78 @@
+.features {
+    background: #f7f7fc;
+    width: 100vw;
+}
+.features-content {
+    max-width: 70%;
+    margin: 9rem auto;
+    padding: 2rem 0;
+}
+.features-content h1 {
+    font-size: 30px;
+    color: var(--dark-blue);
+    margin-bottom: 1rem;
+}
+.features-subinformations {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.features-arrow i:nth-child(1) {
+    transform: scaleX(-1);
+    margin-right: 20px;
+}
+.features-arrow i {
+    font-size: 40px;
+    color: var(--dark-blue);
+}
+.feature-image-single div p {
+    font-weight: normal;
+    color: #F4F4F4;
+}
+.features-images {
+    display: flex;
+    justify-content: space-around;
+}
+.feature-image-single div,
+.feature-image-single img {
+    width: 230px;
+    height: 300px;
+    border-radius: 15px;
+    margin-top: 2rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.feature-image-single div {
+    background: var(--orange);
+    padding: 1rem;
+    font-family: Poppins, sans-serif;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 330px;
+}
+.feature-image-single div button {
+    padding: 1rem;
+    border: 0;
+    border-radius: 2rem;
+    font-weight: 700;
+    color: var(--dark-blue);
+    margin-top: 2.5rem;
+    display: flex;
+    align-items: center;
+}
+.feature-image-single div button i {
+    font-size: 25px;
+    color: var(--button);
+    margin-left: 5px;
+}
+.feature-image-single div button span {
+    flex: 1;
+}
+.feature-image-single p {
+    font-weight: 700;
+    margin-top: 20px;
+}
